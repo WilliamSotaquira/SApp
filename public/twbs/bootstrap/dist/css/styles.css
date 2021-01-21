@@ -1,0 +1,162 @@
+        body {
+            font-family: 'Quicksand', sans-serif !important;
+        }
+        
+        .header {
+            width: 100%;
+            min-height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: #402b33;
+        }
+        
+        .header:before {
+            content: '';
+            width: 100%;
+            min-height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .bg-dark {
+            background-color: #ec0c0c!important;
+            height: 70px;
+        }
+        
+        .tab-navbar {
+            background-color: none;
+            box-sizing: border-box;
+            box-shadow: 0 0 0 2px darkred(#402b33, 20);
+        }
+        
+        .navg a {
+            color: #f4f4f4!important;
+            /* font-family: 'Ubuntu'; */
+            font-size: 16px;
+            padding: 10px 15px;
+            text-align: center;
+            /* text-transform: uppercase; */
+        }
+        
+        .navg a:hover {
+            background-color: #402b33;
+        }
+        
+        .btn-wdw {
+            background-color: #8a7f83;
+            color: #f4f4f4;
+            border-radius: 0px !important;
+            height: auto;
+        }
+        
+        .btn-wdw:hover {
+            background-color: #b1b2b6 !important;
+            color: #f4f4f4;
+        }
+        
+        .lgray-wdw {
+            background-color: #b1b2b6 !important;
+            /*color: #f4f4f4;*/
+        }
+        
+        .hgray-wdw {
+            background-color: #402b33 !important;
+            color: #f4f4f4;
+        }
+        
+        .red-wdw {
+            background-color: #ec0c0c !important;
+            color: #f4f4f4;
+        }
+        
+        .lgray-wdw-body {
+            background-color: #b1b2b6 !important;
+            color: #f4f4f4;
+        }
+        
+        .hgray-wdw-body {
+            background-color: #402b33 !important;
+            color: #f4f4f4;
+        }
+        
+        .red-wdw-body {
+            background-color: #ec0c0c !important;
+            color: #f4f4f4;
+        }
+        
+        .zoom {
+            /* Aumentamos la anchura y altura durante 2 segundos */
+            transition: width 0.3s, height 0.3s, transform 0.3s;
+            -moz-transition: width 0.3s, height 0.3s, -moz-transform 0.3s;
+            -webkit-transition: width 0.3s, height 0.3s, -webkit-transform 0.3s;
+            -o-transition: width 0.3s, height 0.3s, -o-transform 0.3s;
+        }
+        
+        .zoom:hover {
+            /* tranformamos el elemento al pasar el mouse por encima al doble de
+        su tamaño con scale(2). */
+            transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            /* Firefox */
+            -webkit-transform: scale(1.1);
+            /* Chrome - Safari */
+            -o-transform: scale(1.1);
+            /* Opera */
+        }
+        
+        #image-intro {
+            background-color: #404040FF!important;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .box-body-dwd {
+            padding: 15px !important;
+        }
+        
+        #message {
+            position: fixed;
+            top: 5px;
+            left: 2%;
+            width: 60%;
+        }
+        
+        #inner-message {
+            margin: 0 auto;
+        }
+        
+        .parallax {
+            background: #fff fixed no-repeat 50% 50%;
+            background-size: cover;
+        }
+        
+        #sec1 {
+            background-image: url('../../../../images/image1.png');
+            background-size: 140%;
+            height: 600px;
+        }
+        
+        #sec1 h3 {
+            position: absolute;
+            color: white;
+        }
+        
+        #sec2 {
+            background-image: url('../../../../images/christina-wocintechchat-com-qmDoSkfcivI-unsplash.jpg');
+            background-size: 100%;
+            height: 600px;
+        }
+        
+        .jumbotron {
+            align-items: center !important;
+            background-color: #402b33b9;
+            color: #fff;
+            border-radius: 0%;
+        }
+        
+        .nav-item {
+            padding: 5px;
+        }
